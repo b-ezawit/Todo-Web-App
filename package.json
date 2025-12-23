@@ -1,0 +1,24 @@
+{
+  "name": "todo-web-app",
+  "version": "1.0.0",
+  "description": "A modern To-Do application connected to a real backend using JSON Server. Users can add, edit, complete, and delete tasks with live API updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-ezawit/todo-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-ezawit/todo-web-app/issues"
+  },
+  "homepage": "https://github.com/b-ezawit/todo-web-app#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "type": "module"
+}
