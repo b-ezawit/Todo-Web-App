@@ -115,7 +115,7 @@ document.body.addEventListener("click", async (e) => {
         ui.showNormalView(card);
     }
 
-    // Save Changes Button
+    //Save Changes Button
     else if (el.classList.contains("save-btn")) {
         const updatedData = {
             title: card.querySelector(".edit-title").value,
