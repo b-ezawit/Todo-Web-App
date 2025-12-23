@@ -145,11 +145,11 @@ document.body.addEventListener("click", async (e) => {
             description: card.querySelector(".edit-desc").value
         };
 
-        // UI: Update text directly
+        // UI: Update text directly.
         ui.updateCardText(card, updatedData);
         ui.showNormalView(card);
 
-        // API: Update background
+        // API: Update background.
         await crud.updateTask(cardId, updatedData);
     }
 });
