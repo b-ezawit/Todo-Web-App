@@ -1,6 +1,4 @@
-/* ======================
-   GLOBAL REUSABLE STYLES
-====================== */
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +9,6 @@ body {
     margin: 0;
 }
 
-/* Reusable Flex */
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -32,7 +29,6 @@ body {
     color: white;
 }
 
-/* Reusable Input */
 .input {
     padding: 10px;
     border-radius: 6px;
@@ -43,9 +39,6 @@ body {
     width: 100%;
 }
 
-/* ======================
-   LAYOUT
-====================== */
 .page-center {
     min-height: 100vh;
     display: flex;
@@ -63,9 +56,6 @@ body {
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-/* ======================
-   TITLE
-====================== */
 .title-gradient {
     text-align: center;
     font-size: 28px;
@@ -75,18 +65,12 @@ body {
     margin-bottom: 30px;
 }
 
-/* ======================
-   INPUT ROW (FLEXBOX)
-====================== */
 .input-row {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-/* ======================
-   STATUS (CSS GRID)
-====================== */
 .status-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -106,9 +90,6 @@ body {
     font-size: 14px;
 }
 
-/* ======================
-   TODO LIST
-====================== */
 .todo-list {
     display: flex;
     flex-direction: column;
@@ -122,9 +103,6 @@ body {
     border: 1px solid #eee;
 }
 
-/* ======================
-   ICONS
-====================== */
 .action-icons {
     display: flex;
     gap: 10px;
@@ -139,9 +117,7 @@ body {
 .icon.edit { color: orange; }
 .icon.done { color: green; }
 
-/* ======================
-   MEDIA QUERY
-====================== */
+
 @media (max-width: 600px) {
     .input-row {
         flex-direction: column;
@@ -151,3 +127,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
