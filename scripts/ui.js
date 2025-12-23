@@ -120,7 +120,7 @@ function showNormalView(card) {
     card.querySelector(".card-header").style.display = "flex";
 }
 
-// FORM UTILS
+//FORM UTILS
 
 function openInputForm(defaultValue = "") {
     if (document.querySelector(".insertForm")) return; 
