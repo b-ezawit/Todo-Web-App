@@ -30,7 +30,7 @@ function createCardHTML(task) {
             <ul class="edit-task-detail">
                 <li>Title: <input type="text" class="edit-title" value="${task.title}"></li>
                 <li>Due: <input type="date" class="edit-date" value="${task.duedate}"></li>
-                <li>Descritpion: <textarea class="edit-desc">${task.description}</textarea></li>
+                <li>Descritption: <textarea class="edit-desc">${task.description}</textarea></li>
             </ul>
             <div style="margin-top:10px;">
                 <button type="button" class="save-btn btn btn-gradient">Save</button>
