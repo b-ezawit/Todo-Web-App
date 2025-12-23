@@ -1,16 +1,16 @@
 const url = "http://localhost:3000/todos";
 
 //GET
-async function getTasks(path = "") { // Default path to empty string
+async function getTasks(path = "") { 
     try {
-        // Only add slash if path exists
+        
         const endpoint = path ? `${url}/${path}` : url;
         const response = await fetch(endpoint);
         if (!response.ok) throw new Error("No Task");
         return await response.json();
     } catch (error) {
         console.log(error);
-        return []; // Return empty array on error so app doesn't crash
+        return []; 
     }
 }
 
