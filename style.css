@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+    margin: 0;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #00d2ff, #8e2de2);
+    color: white;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.input-full {
+    width: 100%;
+}
+
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.card {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.title-gradient {
+    text-align: center;
+    font-size: 28px;
+    background: linear-gradient(90deg, #00d2ff, #8e2de2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.status-box {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.status-blue {
+    color: #00a8ff;
+    font-size: 14px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-item {
+    background: #fafafa;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon.delete { color: red; }
+.icon.edit { color: orange; }
+.icon.done { color: green; }
+
+
+@media (max-width: 600px) {
+    .input-row {
+        flex-direction: column;
+    }
+
+    .status-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
